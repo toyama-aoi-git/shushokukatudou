@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TextAlive App API | basic example</title>
+    <link rel="stylesheet" href="./css/index.css" >
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/textalive-app-api/dist/index.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+      const { Player } = TextAliveApp;
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body id="main">
+    <div class="animate three fade">
+      <div id="title_font">
+        <span>う</span><span>ご</span><span>い</span><span>て</span><span>！</span> &nbsp;
+        <span>ミ</span><span>ク</span><span>さ</span><span>ん</span><span>！</span>
+      </div>
+    </div>
+    <div id="overlay"><button class="play" disabled>再生</button></div><!--開始時の再生ボタンが表示される部分-->
+    <div id="background"><!--背景用の領域-->
+      <div id="container"><!--メインの表示部-->
+          <div id="model"><!--初音ミクを表示させる部分-->
+            <p>
+              <img class="modelGif" id="modelGif" src="./img/wait.gif" alt="">
+            </p>
+          </div>
+          <div id="lyriczone"><!--歌詞を表示する部分-->
+            <p id="lyrics">
+              <span id="text"></span>
+            </p>
+          </div>
+      </div>
+      <div id="media"></div> <!--PVを表示していた部分-->
+      <div id="header"><!--再生プレイヤー-->
+          <div id="meta">
+            <div id="artist"><strong>artist:</strong> <span>-</span></div>
+            <div id="song"><strong>song:</strong> <span>-</span></div>
+            <p>
+              <span id="position"><strong>-</strong> [ms]</span>
+            </p>
+            <div id="control" style="display: none">
+              <div>
+                <button class="play" disabled>再生</button>
+                <button id="jump" disabled>歌詞頭出し</button>
+                <button id="pause" disabled>一時停止</button>
+                <button id="rewind" disabled>巻き戻し</button>
+              </div>
+            </div>
+          </div>
+          <ul>
+            <li></li>
+            <li>
+              <a></a>
+            </li>
+          </ul>
+      </div>
+      <div id="toolBar"><!-- 下部ツールバー -->
+          
+          <div id="v-rec" class="toolItem"> <!--webspeech関連のインターフェース-->
+            <div id="audioBox" style="padding:10px">
+              <span id="final_span"></span>
+              <span id="interim_span" style="color:grey"></span>
+            </div>
+            
+            <div id="v-buttons"><!-- 音声認識関連のボタン群 -->
+              <button id="button" onclick="toggleStartStop()"></button>
+              <button id="move_button">実行</button>  
+            </div>
+          </div>
+          <div id="logBox" class="toolItem"><!-- 命令の履歴が表示される部分 -->
+            <!-- <h1 id="move"></h1><br>ログに移動予定 -->
+            
+          </div>
+      </div> 
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/web_speech.js"></script>
+    <script src="./js/animation.js"></script>
+  </body>
+
+</html>

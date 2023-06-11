@@ -1,0 +1,58 @@
+body header {
+  margin-top: 20px;
+  height: 75px;
+  padding: 0 50px 0 50px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header form {
+  margin-top: 10px;
+}
+
+body header form input {
+  margin-left: 50px;
+  background-color: #dbdbdb;
+  border-radius: 5px;
+  height: 50px;
+  width: 30vw;
+}
+
+body header form button {
+  height: 50px;
+  padding: 0 20px;
+}
+
+body header .headerA {
+  height: 50px;
+}
+
+body .logo {
+  width: 75px;
+}
+
+body .Exhibit {
+  border-radius: 10px;
+  background-color: #900f45;
+  color: white;
+}
+
+body footer {
+  background-color: #bfbfbf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 20% 30px 20%;
+}
+
+body footer p {
+  height: 75px;
+  line-height: 75px;
+  padding-left: 30%;
+}
+/*# sourceMappingURL=headerFooter.css.map */

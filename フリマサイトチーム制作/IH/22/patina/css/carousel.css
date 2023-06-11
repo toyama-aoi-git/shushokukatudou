@@ -1,0 +1,29 @@
+.swiper-slide {
+  margin-left: 10px;
+}
+
+.swiper{
+  width: 90%;
+  padding-top: 50px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+ display: none;
+}
+/*# sourceMappingURL=carousel.css.map */
+
+/* 次ページボタンのスタイル */
+.swiper-button-next {
+  background-image: url('../img/icon/right.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+
+/* 前ページボタンのスタイル */
+.swiper-button-prev {
+  background-image: url('../img/icon/left.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  

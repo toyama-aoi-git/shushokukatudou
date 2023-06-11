@@ -1,0 +1,96 @@
+body{
+
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    p{
+        padding: 10px;
+    }
+
+    input{
+        border-radius: 5px;
+        padding: 10px;
+    }
+    h1{
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        color: #CCBA95;
+        letter-spacing: 0.3em;
+    }
+
+    h3{
+        font-size: 25px;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+    input{
+        border: 1px solid black;
+    }
+
+    .wrap{
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        .left{
+            width: 50%;
+            .item{
+                display: flex;
+                border-bottom: 1px solid black;
+                padding-bottom: 30px;
+                .explanation{
+                    margin-top: 50px;
+                    margin-left: 50px;
+                }
+            }
+            .pay{
+                border-bottom: 1px solid black;
+                padding: 25px 0 25px 0;
+            }
+
+            .delivery{
+                padding: 25px 0 0 0;
+            }
+        }
+        .right{
+            width: 40%;
+        }
+    }
+
+    .itemimg{
+        background-color: black;
+        overflow: hidden;
+        height: 200px;
+        width: 160px;
+
+    }
+
+    .lastPay{
+        border: 1px solid black;
+    }
+
+    .purchase{
+        width: 300px;
+        height: 80px;
+        background-color: #C36B83;
+        margin: 100px auto 0 auto;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        a{
+            line-height: 80px;
+            font-weight: 800;
+            transition: 0.3s;
+        }
+        a:hover{
+            font-size: 30px;
+        }
+    }
+    .purchase:hover{
+        a{
+            font-size: 25px;
+        }
+    }
+}

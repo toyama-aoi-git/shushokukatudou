@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.toolItem {
+  padding: 1em 1.5em;
+  margin: 10px;
+  background-color: #b4f4ff;
+  /*背景色*/
+  -webkit-box-shadow: 0 0 0 8px #b4f4ff;
+          box-shadow: 0 0 0 8px #b4f4ff;
+  /*背景色外側*/
+  border: 2px dashed #a4a4a4;
+  /*線*/
+  border-radius: 8px;
+  /*角の丸み*/
+  color: #000000;
+  /*文字色*/
+}
+
+#commandList ul {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1becff;
+  border-radius: 100px;
+  width: 130px;
+}
+
+#audioBox {
+  position: relative;
+  width: 500px;
+  margin-left: 50px;
+  padding: 1.5rem 2rem;
+  border: 3px solid #d8d8d8;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+#audioBox:before {
+  position: absolute;
+  bottom: -14px;
+  left: 1em;
+  width: 0;
+  height: 0;
+  content: '';
+  border-width: 14px 12px 0 12px;
+  border-style: solid;
+  border-color: #d8d8d8 transparent transparent transparent;
+}
+
+#audioBox:after {
+  position: absolute;
+  bottom: -10px;
+  left: 1em;
+  width: 0;
+  height: 0;
+  content: '';
+  border-width: 14px 12px 0 12px;
+  border-style: solid;
+  border-color: #f9f9f9 transparent transparent transparent;
+}
+/*# sourceMappingURL=style.css.map */

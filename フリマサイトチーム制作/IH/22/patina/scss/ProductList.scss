@@ -1,0 +1,108 @@
+body{
+    main{
+        font-family: 'Mochiy Pop One', sans-serif;
+        font-family: 'Old Standard TT', serif;
+        letter-spacing: 0.4em;
+        #back{
+            display: flex;
+            margin-left: 2em;
+            span{
+                padding: 1em;
+                background-image: url('../img/icon/select_icon_left.png');
+                background-position: left 10px center;
+                background-repeat: no-repeat;
+                background-size: 10px,10px;
+            }
+            a{
+                top: 0;
+                text-align: left;    
+            }
+        }
+        form{
+            text-align: center;
+            background-color: #f4f3f2;
+            margin: 2em auto;
+            padding: 1rem 0;
+            width: 1200px;
+            label{
+                margin-left: 1em;
+                font-size: 16px;
+            }
+            select{
+                font-size: 13px;
+                background-color: white;
+                padding: 1em 3em;
+                border-radius: 19px;
+            }
+            button{
+                font-size: 13px;
+                background-color: #8dafc3;
+                padding: 1em 3em;
+                border-radius: 19px;
+                margin-left: 1em;
+                color: white;
+            }
+            button:hover{
+                background-color: #8dafc3a2;
+            }
+        }
+        h1{
+            text-align: center;
+            font-size: 26px;
+            // letter-spacing: 0.3em;
+            font-weight: 900;
+            color: #CCBA95;
+            margin-top: 3em;
+            margin-bottom: 2em;
+        }
+        .cflex{
+            display: flex;
+            // justify-content:space-between;
+            flex-wrap: wrap;
+            width: 1200px;
+            margin: 0 auto;
+            .imgList{
+                width: 200px;
+                margin: 1rem 1rem;
+                // font-weight: 600;
+                line-height: 1.5;
+                letter-spacing: 0.05em;
+                .imgbox{
+                    background-color: black;
+                    overflow: hidden;
+                    height: 200px;
+                    width: 200px;
+                    margin-top: 1rem;
+                    a{
+                        display: block;
+                        text-align: center;
+                        width: 200px;
+                        height: 200px;
+                        img{
+                            // height: 250px;
+                            // width: 200px;
+                        }
+                    }
+                    .price{
+                        position: absolute;
+                        color: white;
+                        margin-top: -2rem;
+                        background-color: rgba(159, 158, 158, 0.537);
+                        border-top-right-radius: 10px;
+                        border-bottom-right-radius: 10px;
+                        padding: 2px;
+                        width: 5rem;
+                        text-shadow: black 1px;
+                    }
+                    .date{
+                        color: red;
+                    }
+                    
+                }
+                .display_name{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

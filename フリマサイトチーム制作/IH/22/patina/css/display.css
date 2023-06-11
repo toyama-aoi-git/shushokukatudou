@@ -1,0 +1,155 @@
+body main h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 2em;
+  border-bottom: 1px solid #dcc8a0;
+}
+
+body main #send_item {
+  display: block;
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body main #send_item .nextbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  width: 500px;
+  margin: 9em auto;
+}
+
+body main #send_item .nextbtn a {
+  display: inline-block;
+  line-height: 60px;
+  width: 200px;
+  background-color: white;
+  color: #90c0dca2;
+  border: #90c0dca2 solid 1px;
+}
+
+body main #send_item .nextbtn a:hover {
+  background-color: #90c0dca2;
+  color: white;
+}
+
+body main #send_item .nextbtn button {
+  height: 60px;
+  width: 200px;
+  background-color: #970747;
+  border: #970747 solid 1px;
+  color: white;
+}
+
+body main #send_item .nextbtn button:hover {
+  background-color: white;
+  color: #970747;
+}
+
+body main #send_item h2 {
+  font-size: 40px;
+  text-align: center;
+  width: 50%;
+  margin: 30px auto;
+  letter-spacing: 0.3em;
+  z-index: 999;
+  color: #CCBA95;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 2em;
+  letter-spacing: 0.3em;
+}
+
+body main #send_item h2 {
+  position: relative;
+  z-index: 999;
+}
+
+body main #send_item h2::before {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  z-index: 1;
+  content: '';
+  display: block;
+  width: 20%;
+  height: 1px;
+  background-color: #CCBA95;
+}
+
+body main #send_item h2::after {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  z-index: 1;
+  content: '';
+  display: block;
+  width: 20%;
+  height: 1px;
+  background-color: #CCBA95;
+}
+
+body main #send_item table tr th {
+  background: #F5F5F5;
+  text-align: left;
+  width: 26%;
+  font-size: 16px;
+  font-weight: 600;
+  vertical-align: middle;
+  padding: 16px 30px;
+  letter-spacing: 0.3em;
+  font-family: 'Noto Serif JP', serif;
+}
+
+body main #send_item table tr td {
+  width: 600px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+body main #send_item table tr td input[type="text"],
+body main #send_item table tr td input[type="email"],
+body main #send_item table tr td input[type="password"],
+body main #send_item table tr td input[type="tel"],
+body main #send_item table tr td select {
+  border: solid 1px #ccc;
+  margin-left: 1.5em;
+  height: 40px;
+  width: 70%;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
+body main #send_item table tr td select {
+  background-image: url("../img/icon/select_icon.png");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 13px,13px;
+}
+
+body main #send_item table tr td input.yen {
+  margin-left: 0em;
+}
+
+body main #send_item table tr td span {
+  margin-left: 1.5em;
+}
+
+body main #send_item table tr td .error {
+  color: red;
+}
+
+body main #send_item table tr td .error {
+  display: block;
+  color: red;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+/*# sourceMappingURL=display.css.map */

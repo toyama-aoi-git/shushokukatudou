@@ -1,0 +1,55 @@
+body{
+    header{
+        margin-top: 20px;
+        height: 75px;
+        padding: 0 50px 0 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        form{
+            margin-top: 10px;
+            input{
+                margin-left: 50px;
+                background-color: rgb(219, 219, 219);
+                border-radius: 5px;
+                height: 50px;
+                width: 30vw;
+            }
+            button{
+                height: 50px;
+                padding: 0 20px;
+            }
+        }
+
+        .headerA{
+            height: 50px;
+            // margin-top: 20px;
+        }
+    }
+
+    .logo{
+        width: 75px;
+    }
+
+    .Exhibit{
+        border-radius: 10px;
+        background-color: #900f45;
+        color: white;
+    }
+
+    footer{
+        background-color: rgb(191, 191, 191);
+        display: flex;
+
+        padding: 30px 20% 30px 20%;
+
+        p{
+            height: 75px;
+            line-height: 75px;
+            padding-left: 30%;
+        }
+    }
+
+
+    
+}

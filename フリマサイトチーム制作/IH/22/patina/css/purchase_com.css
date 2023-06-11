@@ -1,0 +1,25 @@
+main {
+  height: 70vh;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+main h1 {
+  padding-top: 80px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #CCBA95;
+  padding-bottom: 100px;
+}
+
+main a {
+  color: black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+main a:hover {
+  color: #6b6b6b;
+  font-size: 20px;
+}
+/*# sourceMappingURL=purchase_com.css.map */

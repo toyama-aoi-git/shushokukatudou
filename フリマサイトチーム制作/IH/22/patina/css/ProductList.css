@@ -1,0 +1,120 @@
+body main {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-family: 'Old Standard TT', serif;
+  letter-spacing: 0.4em;
+}
+
+body main #back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2em;
+}
+
+body main #back span {
+  padding: 1em;
+  background-image: url("../img/icon/select_icon_left.png");
+  background-position: left 10px center;
+  background-repeat: no-repeat;
+  background-size: 10px,10px;
+}
+
+body main #back a {
+  top: 0;
+  text-align: left;
+}
+
+body main form {
+  text-align: center;
+  background-color: #f4f3f2;
+  margin: 2em auto;
+  padding: 1rem 0;
+  width: 1200px;
+}
+
+body main form label {
+  margin-left: 1em;
+  font-size: 16px;
+}
+
+body main form select {
+  font-size: 13px;
+  background-color: white;
+  padding: 1em 3em;
+  border-radius: 19px;
+}
+
+body main form button {
+  font-size: 13px;
+  background-color: #8dafc3;
+  padding: 1em 3em;
+  border-radius: 19px;
+  margin-left: 1em;
+  color: white;
+}
+
+body main form button:hover {
+  background-color: #8dafc3a2;
+}
+
+body main h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 900;
+  color: #CCBA95;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+body main .cflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body main .cflex .imgList {
+  width: 200px;
+  margin: 1rem 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+body main .cflex .imgList .imgbox {
+  background-color: black;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  margin-top: 1rem;
+}
+
+body main .cflex .imgList .imgbox a {
+  display: block;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+
+body main .cflex .imgList .imgbox .price {
+  position: absolute;
+  color: white;
+  margin-top: -2rem;
+  background-color: rgba(159, 158, 158, 0.537);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 2px;
+  width: 5rem;
+  text-shadow: black 1px;
+}
+
+body main .cflex .imgList .imgbox .date {
+  color: red;
+}
+
+body main .cflex .imgList .display_name {
+  font-size: 16px;
+}
+/*# sourceMappingURL=ProductList.css.map */
