@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/destyle.css">
+    <title>JS23 kadai02</title>
+</head>
+
+<body>
+    <header>
+        <h3><img src="./img/JS23News_logo.png" alt=""></h3>
+        <h1>RSSで簡易ニュースアプリ</h1>
+        <form action="">
+            <input id="button1" name="url" type="radio" value="https://news.yahoo.co.jp/rss/topics/top-picks.xml"><label for="button1">Yahooニュース</label>
+            <input id="button2" name="url" type="radio" value="https://news.yahoo.co.jp/rss/media/zdn_m/all.xml"><label for="button2">ＩＴメディア</label>
+            <input id="button3" name="url" type="radio" value="https://news.yahoo.co.jp/rss/media/kantele/all.xml"><label for="button3">関西テレビ</label>
+            <button type="submit" id="button">表示</button>
+        </form>
+        <hr>
+    </header>
+    <label id="radio_error"></label>
+    <div id="output">
+        
+        <div id="output-content">
+            
+            <h3><img src="./img/JS23News_logo.png" alt=""></h3>
+            <h2>RSSで簡易ニュースアプリ</h2>
+            <p>JS23 RSSで作成する</p>
+            <p>簡易ニュースアプリです。</p>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/02_ih12a26.js"></script>
+</body>
+
+</html>

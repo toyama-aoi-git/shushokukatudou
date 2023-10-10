@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+h1{
+    text-align: center;
+    padding: 1em;
+}
+h2{
+    text-align: center;
+}
+
+div{
+    border: solid 1px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+}
+
+
+
+button{
+    padding: 0.5em;
+    width: 12em;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+#user{
+    text-align: right;
+}
